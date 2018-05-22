@@ -18,3 +18,6 @@ Route::get('/', function () {
 Route::get('/foo',function(){
     return 'foo';
 });
+Route::get('/api',function (){
+    return 'api';
+});
